@@ -1,0 +1,7 @@
+{
+    "name": "MedicalDBOverwrite",
+    "author": "CanInBad",
+    "description": "A mod that override vanilla nursery viewing database with paged view for your children, sperated unrelated to another window.",
+    "modversion": "R1",
+    "gameversion": "*"
+}

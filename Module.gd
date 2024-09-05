@@ -1,12 +1,12 @@
 extends Module
 
 func _init():
-    id = "MedDatabase"
+    id = "MedicalDBOverwrite"
     author = "CanInBad"
 
     events = [
-        "res://Modules/MedicalDatabaseOverwrite/Events/DatabaseButton.gd",
+        "res://Modules/MedicalDBOverwrite/Events/DatabaseButton.gd",
         ]
     scenes = [
-        "res://Modules/MedicalDatabaseOverwrite/Scenes/Database.gd"
+        "res://Modules/MedicalDBOverwrite/Scenes/Database.gd"
     ]
