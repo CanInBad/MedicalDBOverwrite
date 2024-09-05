@@ -109,11 +109,7 @@ func printChildrenRange(_start:int = 0, _stop:int = 49, pcKids:bool = true):
 
         resultTable += "[cell]"+child.name+"[/cell]"
         resultTable += "[cell]"+"[color="+NpcGender.getColorString(child.gender)+"]"+ NpcGender.getVisibleName(child.gender)+"[/color]"+"[/cell]"
-        print(str(rowCount)+"\tspecies: "+ str(child.species))
-
         resultTable += "[cell]"+Util.getSpeciesName(child.species)+"[/cell]"
-
-
         resultTable += "[cell]"+ageStr+"[/cell]"
         resultTable += "[cell]"+child.getMotherName()+"[/cell]"
         resultTable += "[cell]"+child.getFatherName()+"[/cell]"
